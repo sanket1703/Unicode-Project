@@ -1,5 +1,6 @@
 # Unicode-Project
 # Unicode-Project
+# Please refer the other repo for my personal projects
 
 This repo consists of two applications
 
@@ -20,3 +21,4 @@ This app allows you to login in and also can retrieve just stored data even when
 Shared Preferences was used for this app
 
 NOTE: As soon as you create a new Login registery the previous one is lost.
+
