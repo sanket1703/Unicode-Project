@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2f3887"
+    android:isScrollContainer="true"
+    tools:context=".SaveIn">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="400dp"
+        android:layout_height="513dp"
+        android:layout_marginBottom="28dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/Save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/Head"
+            android:layout_width="match_parent"
+            android:layout_height="164dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Head will come here"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="20sp"
+            android:text="Name"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/Sap"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:gravity="start|center_vertical"
+            android:paddingLeft="20sp"
+            android:text="Sap"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Branch"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:gravity="start|center_vertical"
+            android:paddingLeft="20sp"
+            android:text="Branch"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Gender"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:gravity="start|center_vertical"
+            android:paddingLeft="20sp"
+            android:text="Gender"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Age"
+            android:layout_width="406dp"
+            android:layout_height="50sp"
+            android:gravity="start|center_vertical"
+            android:paddingLeft="20sp"
+            android:text="Age"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Save"
+        android:layout_width="85dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="166dp"
+        android:layout_marginLeft="166dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginRight="160dp"
+        android:layout_marginBottom="88dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="save"
+        android:text="Save"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

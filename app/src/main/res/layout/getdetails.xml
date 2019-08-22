@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2f3887"
+    android:isScrollContainer="true"
+    tools:context=".GetDetails">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="537dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginTop="20sp"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:paddingLeft="15sp"
+            android:paddingRight="15sp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/sap"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginTop="0sp"
+            android:ems="10"
+            android:hint="SAP ID"
+            android:inputType="phone"
+            android:paddingLeft="15sp"
+            android:paddingRight="15sp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/branch"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:ems="10"
+            android:hint="Branch"
+            android:inputType="textPersonName"
+            android:paddingLeft="15sp"
+            android:paddingRight="15sp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15sp"
+            android:paddingRight="15sp">
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="241dp"
+                android:layout_height="50sp"
+                android:layout_weight="1"
+                android:onClick="gen"
+                android:text="Female"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="242dp"
+                android:layout_height="50sp"
+                android:layout_weight="1"
+                android:onClick="gen"
+                android:text="Male"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="241dp"
+                android:layout_height="50sp"
+                android:layout_weight="1"
+                android:onClick="gen"
+                android:text="Transgender"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="400dp"
+            android:layout_height="50sp"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:hint="Age"
+            android:inputType="number"
+            android:paddingLeft="15sp"
+            android:paddingRight="15sp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginLeft="162dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginRight="161dp"
+        android:layout_marginBottom="90dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Submit"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
