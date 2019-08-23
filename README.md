@@ -27,5 +27,7 @@ NOTE: As soon as you create a new Login registery the previous one is lost.
 
 ![Screenshot_2019-08-17-23-17-17-213_com example loginapplication](https://user-images.githubusercontent.com/53148165/63578290-c06e9f00-c5ad-11e9-96c1-0bd0249405c6.png)
 
+![Screenshot_2019-08-17-23-17-24-591_com example loginapplication](https://user-images.githubusercontent.com/53148165/63578374-ee53e380-c5ad-11e9-95cb-f10acb595d2e.png)
+
 
 
