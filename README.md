@@ -29,5 +29,8 @@ NOTE: As soon as you create a new Login registery the previous one is lost.
 
 ![Screenshot_2019-08-17-23-17-24-591_com example loginapplication](https://user-images.githubusercontent.com/53148165/63578374-ee53e380-c5ad-11e9-95cb-f10acb595d2e.png)
 
+![Screenshot_2019-08-17-23-17-51-782_com miui home](https://user-images.githubusercontent.com/53148165/63578424-10e5fc80-c5ae-11e9-8c85-95db5e0fc001.png)
+
+
 
 
